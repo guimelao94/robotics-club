@@ -1,0 +1,44 @@
+#Variable Declarations
+Julia = 10
+Jose = 5
+Nick = 12
+Jason = 20
+#Print Commands
+print "Julia has",Julia,"coins"
+print "Jose has",Jose,"coins"
+print "Nick has",Nick,"coins"
+#Input Commands
+Julia = input("Enter how many coins you want Julia to have: ") #Enter 12
+Jose = input("Enter how many coins you want Jose to have: ") #Enter 13
+Nick = input("Enter how many coins you want Nick to have: ") #Enter 14
+#New Print Commands
+print "Julia now has", Julia, "coins", "Jose now has", Jose, "coins", "and Nick has", Nick,"coins."
+#Game
+guess = input("Who has more coins? ")
+   #if Statements
+if (guess != "Nick"):
+ print "You have entered the wrong answer."
+else:
+ print "You got it right!!"
+#---------------------------------------------------------------
+#Using the type() command
+# 'str' stands for string , 'int' stands for integer
+print "Nick", type(Nick)
+print "Julia", type(Julia)
+print "Jose", type(Jose)
+print "Jason", type(Jason)
+print '-------------------------'
+#Declaring variables of a specific type
+#  'float' stands for numbers with a decimal value
+Age = 12
+Sentence = "It's Sunday"
+Money = 1.99
+
+int(Age)
+str(Sentence)
+float(Money)
+
+print "Age", type(Age)
+print "Sentence", type(Sentence)
+print "Money", type(Money)
+
